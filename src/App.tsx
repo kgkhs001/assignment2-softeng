@@ -2,19 +2,15 @@
 import Title from "./title.tsx";
 import './App.css'
 import Intro from './intro.tsx'
-//import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import './title.tsx'
-
+import List from './list.tsx'
+import Table from './table.tsx'
+import Form from './form.tsx'
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Title/>
-        <Intro />
+      <Title/> <Intro /> <List /> <Table /> <Form />
     </>
   )
 }

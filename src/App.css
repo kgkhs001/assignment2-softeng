@@ -1,9 +1,25 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
+  height: auto  ;
   margin: 0 auto;
   padding: 2rem;
+  background-color: ivory;
+  color: black;
+}
+
+h1{
+  color: orange;
+  font-family: "Times New Roman", serif;
   text-align: center;
 }
+
+table{
+  border: #1a1a1a 2px solid;
+}
+th, td{
+  border: #1a1a1a 2px solid;
+}
+
 
 @keyframes logo-spin {
   from {
