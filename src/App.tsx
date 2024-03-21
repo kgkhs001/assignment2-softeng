@@ -7,7 +7,6 @@ import Intro from './intro.tsx'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import './title.tsx'
-import Title from "./title.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
