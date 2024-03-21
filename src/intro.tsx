@@ -2,20 +2,40 @@ import { useState } from 'react'
 import './App.css'
 
 function Intro() {
-    const [name, setName] = useState("");
+    const [name, setName] = useState("Click Here!");
+    const [name2, setName2] = useState("Click Here!");
+    const [name3, setName3] = useState("Click Here!");
+    const [name4, setName4] = useState("Click Here!");
     const editEntry = (): void =>{
         const enteredName: string | null = prompt("Enter name", "");
         setName(enteredName);
     }
 
+    const editEntry2 = (): void =>{
+        const enteredName: string | null = prompt("Enter name", "");
+        setName2(enteredName);
+    }
+
+
+    const editEntry3 = (): void =>{
+        const enteredName: string | null = prompt("Enter name", "");
+        setName3(enteredName);
+    }
+
+    const editEntry4 = (): void =>{
+        const enteredName: string | null = prompt("Enter name", "");
+        setName4(enteredName);
+    }
+    //Same name always showing up on every button. How to fix?
     return (
         <>
             <p>
-                Hi! My name is <button onClick={editEntry}>{name}</button>, and I am a computer science student at Worcester Polytechnic Institute. This is my first
+                Hi! My name is <button onClick={editEntry}>{name}</button>, and I am a computer science student at
+                Worcester Polytechnic Institute. This is my first
                 ever html page that I've created. This mostly serves as a way to teach myself how to use HTML and CSS
                 as a part of the CS3733 Software Engineering Assignment 1 Part 4 directions specify.
-              </p>
-
+            </p>
+            <p>Writing: <button onClick={editEntry2}>{name2}</button></p>
             <p>
                 I love music. I play Trumpet, Guitar, and Piano and enjoy jazz music.
                 The music of Herbie Hancock, Horace Silver, and Oliver Nelson (to name a few) are some of
@@ -23,6 +43,14 @@ function Intro() {
                 hip-hop to classic rock to country to metal and everything inbetween. Here are a few
                 of my favorite genres
             </p>
+
+            <p>Writing: <button onClick={editEntry3}>{name3}</button></p>
+            <p>On Mondays, if I have time, I like to play Troika which is like an RPG, with my friends. It helps me get
+                away from my schoolwork.</p>
+
+
+            <p>Writing: <button onClick={editEntry4}>{name4}</button></p>
+            <p>On the weekends I like to visit my family and collect free food.</p>
         </>
     );
 }
