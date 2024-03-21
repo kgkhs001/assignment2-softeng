@@ -30,7 +30,7 @@ function Intro() {
     return (
         <>
             <p>
-                Hi! My name is <button onClick={editEntry}>{name}</button>, and I am a computer science student at
+                Hi! My name is <button onClick={editEntry} >{name}</button>, and I am a computer science student at
                 Worcester Polytechnic Institute. This is my first
                 ever html page that I've created. This mostly serves as a way to teach myself how to use HTML and CSS
                 as a part of the CS3733 Software Engineering Assignment 1 Part 4 directions specify.
