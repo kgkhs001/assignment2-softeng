@@ -10,7 +10,11 @@ function App() {
 
   return (
     <>
-      <Title/> <Intro krishna="Krishna" nick="Nick"/> <List /> <Table /> <Form />
+      <Title/>
+        <Intro krishna="Krishna" nick="Nick"/>
+        <List />
+        <Table />
+        <Form />
     </>
   )
 }
