@@ -1,6 +1,6 @@
 import './App.css'
 
-function Intro(props) {
+function Intro(props:{krishna:string,nick:string}) {
 
     //Same name always showing up on every button. How to fix?
     return (
