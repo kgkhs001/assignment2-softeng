@@ -49,7 +49,7 @@ function Table() {
 
             </table>
 
-            <h4>Here are some of my favorite artists and their songs</h4>
+            <h4>Here are some of Nick's favorite artists and their songs</h4>
             <table>
                 <tr>
                     <th>Chet Baker</th>
