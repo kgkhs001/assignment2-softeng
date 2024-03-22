@@ -49,28 +49,36 @@ function Table() {
 
             </table>
 
-            <h4>Here are some of my favorite artists and their songs</h4>
+            <h4>Here are some of Nick's favorite artists and their songs</h4>
             <table>
+                <tbody>
                 <tr>
-                    <th>Chet Baker</th>
-                    <th>Low</th>
-                    <th>Sweet Trip</th>
+                    <td>Chet Baker</td>
+                    <td>Low</td>
+                    <td>Sweet Trip</td>
                 </tr>
+                </tbody>
+                <tbody>
                 <tr>
                     <td>The Thrill is Gone</td>
                     <td>Words</td>
                     <td>Your World is Eternally Complete</td>
                 </tr>
+                </tbody>
+                <tbody>
                 <tr>
                     <td>Look For The Silver Lining</td>
                     <td>Cut</td>
                     <td>Chocolate Matter</td>
                 </tr>
+                </tbody>
+                <tbody>
                 <tr>
                     <td>But Not For Me</td>
                     <td>Do You Know How To Waltz</td>
                     <td>Dsco</td>
                 </tr>
+                </tbody>
             </table>
         </>
     )

@@ -5,6 +5,7 @@ function Intro(props) {
     //Same name always showing up on every button. How to fix?
     return (
         <>
+            <p>Writing: {props.nick}</p>
             <p>
                 Hi! My name is {props.nick}, and I am a computer science student at
                 Worcester Polytechnic Institute. This is my first
