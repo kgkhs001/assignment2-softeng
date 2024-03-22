@@ -48,7 +48,30 @@ function Table() {
                 </tbody>
 
             </table>
-            <h4>Nick's Table</h4>
+
+            <h4>Here are some of my favorite artists and their songs</h4>
+            <table>
+                <tr>
+                    <th>Chet Baker</th>
+                    <th>Low</th>
+                    <th>Sweet Trip</th>
+                </tr>
+                <tr>
+                    <td>The Thrill is Gone</td>
+                    <td>Words</td>
+                    <td>Your World is Eternally Complete</td>
+                </tr>
+                <tr>
+                    <td>Look For The Silver Lining</td>
+                    <td>Cut</td>
+                    <td>Chocolate Matter</td>
+                </tr>
+                <tr>
+                    <td>But Not For Me</td>
+                    <td>Do You Know How To Waltz</td>
+                    <td>Dsco</td>
+                </tr>
+            </table>
         </>
     )
 }

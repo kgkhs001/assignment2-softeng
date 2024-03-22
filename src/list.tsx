@@ -13,10 +13,13 @@ function List() {
                 <li>Music</li>
             </ul>
 
-            //Nick enter your stuff here
             <ul>
-                <p className={"head"}>Things Nick Likes</p>
-                <li></li>
+                <p className={"head"}>Music Genres That Nick Likes</p>
+                <li>Jazz</li>
+                <li>Rock</li>
+                <li>Electronic</li>
+                <li>Pop</li>
+                <li>Hip-Hop</li>
             </ul>
         </>
     )
