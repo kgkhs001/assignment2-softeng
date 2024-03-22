@@ -20,6 +20,16 @@ function Form() {
                 <input type="checkbox" id="fterms" name="fterms"/>
                 <label htmlFor="fterms">I agree to terms and service </label><br/>
 
+                <p>Enter your music genre preference</p>
+                <input type="radio" id="electronic" name="music"/>
+                <label htmlFor="electronic">Electronic</label><br/>
+
+                <input type="radio" id="jazz" name="music"/>
+                <label htmlFor="jazz">Jazz</label><br/>
+
+                <input type="radio" id="rock" name="music"/>
+                <label htmlFor="rock">Rock</label><br/>
+
                 <p>Enter how long you've been reading manga</p>
                 <input type="radio" id="long" name="long"/>
                 <label htmlFor="long">Very Long Time</label><br/>

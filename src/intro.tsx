@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-function Intro() {
-    const [name, setName] = useState("Click Here!");
-    const [name2, setName2] = useState("Click Here!");
-    const [name3, setName3] = useState("Click Here!");
-    const [name4, setName4] = useState("Click Here!");
+function Intro(prop) {
+    const [name, setName] = useState(prop.init);
+    const [name2, setName2] = useState(prop.init);
+    const [name3, setName3] = useState(prop.init);
+    const [name4, setName4] = useState(prop.init);
     const editEntry = (): void =>{
         const enteredName: string | null = prompt("Enter name", "");
         setName(enteredName);
